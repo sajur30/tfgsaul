@@ -1,0 +1,3818 @@
+[
+    {
+        "id": "43a804a2e46e228e",
+        "type": "tab",
+        "label": "Histórico",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "49fb91836e36b687",
+        "type": "tab",
+        "label": "Mqtt",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "27435e1b1b19d883",
+        "type": "tab",
+        "label": "Telegram",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9fd0372697c7261d",
+        "type": "tab",
+        "label": "Regleta inteligente",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d24050bcd1018b66",
+        "type": "mqtt-broker",
+        "name": "Raspberry Server - MQTT",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ec9c6273a387b6a0",
+        "type": "ui_group",
+        "name": "DHT11",
+        "tab": "d8ec36efd6918c42",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3676f7f9d6e9f47f",
+        "type": "ui_group",
+        "name": "BMP280",
+        "tab": "62b26c335df88d03",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f5b342f16008e0eb",
+        "type": "ui_group",
+        "name": "LDR",
+        "tab": "62b26c335df88d03",
+        "order": 4,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "feeb7169f697d404",
+        "type": "ui_group",
+        "name": "Ultrasonido",
+        "tab": "8d8a9b69da82b1a8",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9341b886b543759b",
+        "type": "ui_group",
+        "name": "MQ-5",
+        "tab": "d8ec36efd6918c42",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "99c68e539f5db116",
+        "type": "ui_group",
+        "name": "MQ-135",
+        "tab": "d8ec36efd6918c42",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d8ec36efd6918c42",
+        "type": "ui_tab",
+        "name": "Placa 4 y 5",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "62b26c335df88d03",
+        "type": "ui_tab",
+        "name": "Placa 3",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8d8a9b69da82b1a8",
+        "type": "ui_tab",
+        "name": "Placa2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "eb5637d6516e961b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3ecb1f7c6357765f",
+        "type": "telegram bot",
+        "botname": "tfgsaul_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "ca5380fb017149bc",
+        "type": "ui_group",
+        "name": "DHT11",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7633ce0ebec64177",
+        "type": "ui_group",
+        "name": "BMP280",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7c447e96.4b96a",
+        "type": "ui_tab",
+        "name": "Zooland Sys",
+        "icon": "home",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4c86f3b421016028",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3bafc107437b23f8",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fa04736da8b5d8e7",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0d6b442cd39d8bbe",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "17a3b74a16555667",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "c0ebb202a57bd541",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "47671962db45d16c",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "c0ebb202a57bd541",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7b3047baf9cf0ad0",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "c0ebb202a57bd541",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "28528414693be94c",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "c0ebb202a57bd541",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "966581b674fc074a",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "41e5f2507358783c",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f546377cf304a23c",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "41e5f2507358783c",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "602b88308edd7e3a",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "41e5f2507358783c",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "95ab8d4b1e2e655c",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "41e5f2507358783c",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "62042f3b77c3e057",
+        "type": "mongodb",
+        "hostname": "localhost",
+        "port": "27017",
+        "db": "tfg-saul",
+        "name": "Raspi angelito"
+    },
+    {
+        "id": "af96a5d051416591",
+        "type": "ui_group",
+        "name": "hidden_group",
+        "tab": "7c447e96.4b96a",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c0ebb202a57bd541",
+        "type": "ui_group",
+        "name": "BMP280",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "41e5f2507358783c",
+        "type": "ui_group",
+        "name": "DHT11",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d85770efd548e6ad",
+        "type": "ui_tab",
+        "name": "Históricos",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "40ccc195a0199842",
+        "type": "ui_tab",
+        "name": "Regleta inteligente",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8a4bf2b33d23b0b7",
+        "type": "ui_group",
+        "name": "Enchufes",
+        "tab": "40ccc195a0199842",
+        "order": 1,
+        "disp": true,
+        "width": "29",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "22f9c914857e0dcc",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "bf565686a0cd645c",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c99323a0863ac1b8",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "2cb1b2acdf680651",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9f70c92fb31c6100",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c33f66ea44a297b4",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b52ca8d312ed0120",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d071cde361464517",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 14,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ce8cf9afd25d50f6",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 15,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "fced34bc741ca8ca",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 16,
+        "width": 29,
+        "height": 1
+    },
+    {
+        "id": "4635eb901264d185",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 17,
+        "width": 29,
+        "height": 1
+    },
+    {
+        "id": "68d6debab768ef54",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ecf3272da141bc94",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 21,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ae07afce8c39e3ed",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 24,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "04e0b31d2249fbce",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 25,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9b49cfca903c4f9b",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 27,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "9f32f3eed28a6a55",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 29,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "03c31376c091ed67",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 30,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "28f60201d36193dd",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 31,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "de52f828fc98124c",
+        "type": "ui_spacer",
+        "z": "9fd0372697c7261d",
+        "name": "spacer",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 32,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "5f1fd5b0df2ccd6b",
+        "type": "ui_group",
+        "name": "Sensores",
+        "tab": "d85770efd548e6ad",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b613406fc3df6771",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 5,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "7c9709f4b8ae5c8a",
+        "type": "ui_spacer",
+        "z": "43a804a2e46e228e",
+        "name": "spacer",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 8,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "e83bc6cffc48845b",
+        "type": "ui_group",
+        "name": "DHT11",
+        "tab": "62b26c335df88d03",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab0f9c095ecb9a44",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find ultrasonido",
+        "collection": "ultrasonido",
+        "operation": "find",
+        "x": 480,
+        "y": 40,
+        "wires": [
+            [
+                "ed336dab44c9a25e"
+            ]
+        ]
+    },
+    {
+        "id": "ccaa2ef0ebdf391f",
+        "type": "ui_template",
+        "z": "43a804a2e46e228e",
+        "group": "af96a5d051416591",
+        "name": "Clock Toolbar",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "656f3ad92fcaf6f9",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find mq5",
+        "collection": "mq5",
+        "operation": "find",
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "2ec847c943b01447"
+            ]
+        ]
+    },
+    {
+        "id": "a3361d06a0450ac7",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find mq135",
+        "collection": "mq135",
+        "operation": "find",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "5aa70941bb3b4d09"
+            ]
+        ]
+    },
+    {
+        "id": "2c48b6b990a5e37e",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find ldr",
+        "collection": "ldr",
+        "operation": "find",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            [
+                "efa89f2bdbf0a549"
+            ]
+        ]
+    },
+    {
+        "id": "ed25a289ae74ac7b",
+        "type": "inject",
+        "z": "43a804a2e46e228e",
+        "name": "Actualización cada 10''",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "2c48b6b990a5e37e",
+                "a3361d06a0450ac7",
+                "656f3ad92fcaf6f9",
+                "ab0f9c095ecb9a44",
+                "2ccddb7a0af2d3eb",
+                "f60f993ba308ce91",
+                "8ba99da2912534ed"
+            ]
+        ]
+    },
+    {
+        "id": "0e474a1d755dc04a",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find dht11",
+        "collection": "dht11",
+        "operation": "find",
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "0b92c1ab35c9cbf6",
+                "a5dba6087b2ac83a"
+            ]
+        ]
+    },
+    {
+        "id": "2ccddb7a0af2d3eb",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find bmp280",
+        "collection": "bmp280",
+        "operation": "find",
+        "x": 450,
+        "y": 580,
+        "wires": [
+            [
+                "ebd495f374cb8c05",
+                "3fe5ca6df17f46b4"
+            ]
+        ]
+    },
+    {
+        "id": "a5dba6087b2ac83a",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Histórico",
+        "func": "var arraytemperatura = [];\n\n// los arrays usados en la represenstación gráfica deben contener objetos JSON con dos campos: {x , y}\n// en x debemos poner la hora en formato \"timestamp\". Si tenemos un objeto fecha se puede convertir usando el metodo getTime()\n// en y debemos poner el valor de la variable\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        var timeString = msg.payload[i].tiempo;\n        var dateTimeParts = timeString.split(\" \"); // Separar fecha y hora\n        var dateParts = dateTimeParts[0].split(\"-\").map(Number);\n        var timeParts = dateTimeParts[1].split(\":\").map(Number);\n\n        var timestamp = new Date(\n            dateParts[0], // Año\n            dateParts[1] - 1, // Mes (se resta 1 ya que en JavaScript los meses van de 0 a 11)\n            dateParts[2], // Día\n            timeParts[0], // Horas\n            timeParts[1], // Minutos\n            timeParts[2] // Segundos\n        ).getTime();\n\n        arraytemperatura.push({\n            x: timestamp,\n            y: msg.payload[i].temperatura\n        });\n    }\n}\n\n\nmsg.payload = [{\n    \"series\": [\"temperatura\"],\n    \"data\": [arraytemperatura],\n    \"labels\": [\"\"]\n}];\n\n\nreturn msg;  \n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 360,
+        "wires": [
+            [
+                "66922df45d568eb8"
+            ]
+        ]
+    },
+    {
+        "id": "66922df45d568eb8",
+        "type": "ui_chart",
+        "z": "43a804a2e46e228e",
+        "name": "",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 9,
+        "width": 12,
+        "height": 6,
+        "label": "Histórico Temperatura Placa3",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1080,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b92c1ab35c9cbf6",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Histórico",
+        "func": "var arrayhumedad = [];\n\n// los arrays usados en la represenstación gráfica deben contener objetos JSON con dos campos: {x , y}\n// en x debemos poner la hora en formato \"timestamp\". Si tenemos un objeto fecha se puede convertir usando el metodo getTime()\n// en y debemos poner el valor de la variable\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        var timeString = msg.payload[i].tiempo;\n        var dateTimeParts = timeString.split(\" \"); // Separar fecha y hora\n        var dateParts = dateTimeParts[0].split(\"-\").map(Number);\n        var timeParts = dateTimeParts[1].split(\":\").map(Number);\n\n        var timestamp = new Date(\n            dateParts[0], // Año\n            dateParts[1] - 1, // Mes (se resta 1 ya que en JavaScript los meses van de 0 a 11)\n            dateParts[2], // Día\n            timeParts[0], // Horas\n            timeParts[1], // Minutos\n            timeParts[2] // Segundos\n        ).getTime();\n\n        arrayhumedad.push({\n            x: timestamp,\n            y: msg.payload[i].humedad\n        });\n    }\n}\n\n\nmsg.payload = [{\n    \"series\": [\"humedad\"],\n    \"data\": [arrayhumedad],\n    \"labels\": [\"\"]\n}];\n\n\nreturn msg;  ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 420,
+        "wires": [
+            [
+                "48d6390ef773dcff"
+            ]
+        ]
+    },
+    {
+        "id": "48d6390ef773dcff",
+        "type": "ui_chart",
+        "z": "43a804a2e46e228e",
+        "name": "",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 11,
+        "width": 12,
+        "height": 6,
+        "label": "Histórico Humedad Placa3",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1080,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ebd495f374cb8c05",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Histórico",
+        "func": "var arraypresion = [];\n\n// los arrays usados en la represenstación gráfica deben contener objetos JSON con dos campos: {x , y}\n// en x debemos poner la hora en formato \"timestamp\". Si tenemos un objeto fecha se puede convertir usando el metodo getTime()\n// en y debemos poner el valor de la variable\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        var timeString = msg.payload[i].tiempo;\n        var dateTimeParts = timeString.split(\" \"); // Separar fecha y hora\n        var dateParts = dateTimeParts[0].split(\"-\").map(Number);\n        var timeParts = dateTimeParts[1].split(\":\").map(Number);\n\n        var timestamp = new Date(\n            dateParts[0], // Año\n            dateParts[1] - 1, // Mes (se resta 1 ya que en JavaScript los meses van de 0 a 11)\n            dateParts[2], // Día\n            timeParts[0], // Horas\n            timeParts[1], // Minutos\n            timeParts[2] // Segundos\n        ).getTime();\n\n        arraypresion.push({\n            x: timestamp,\n            y: msg.payload[i].presion\n        });\n    }\n}\n\n\nmsg.payload = [{\n    \"series\": [\"presion\"],\n    \"data\": [arraypresion],\n    \"labels\": [\"\"]\n}];\n\n\nreturn msg;  ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 600,
+        "wires": [
+            [
+                "faceb2cfc717590c"
+            ]
+        ]
+    },
+    {
+        "id": "faceb2cfc717590c",
+        "type": "ui_chart",
+        "z": "43a804a2e46e228e",
+        "name": "",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 7,
+        "width": 12,
+        "height": 7,
+        "label": "Histórico Presión",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3fe5ca6df17f46b4",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Histórico",
+        "func": "var arrayaltitud = [];\n\n// los arrays usados en la represenstación gráfica deben contener objetos JSON con dos campos: {x , y}\n// en x debemos poner la hora en formato \"timestamp\". Si tenemos un objeto fecha se puede convertir usando el metodo getTime()\n// en y debemos poner el valor de la variable\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        var timeString = msg.payload[i].tiempo;\n        var dateTimeParts = timeString.split(\" \"); // Separar fecha y hora\n        var dateParts = dateTimeParts[0].split(\"-\").map(Number);\n        var timeParts = dateTimeParts[1].split(\":\").map(Number);\n\n        var timestamp = new Date(\n            dateParts[0], // Año\n            dateParts[1] - 1, // Mes (se resta 1 ya que en JavaScript los meses van de 0 a 11)\n            dateParts[2], // Día\n            timeParts[0], // Horas\n            timeParts[1], // Minutos\n            timeParts[2] // Segundos\n        ).getTime();\n\n        arrayaltitud.push({\n            x: timestamp,\n            y: msg.payload[i].altitud\n        });\n    }\n}\n\n\nmsg.payload = [{\n    \"series\": [\"altitud\"],\n    \"data\": [arrayaltitud],\n    \"labels\": [\"\"]\n}];\n\n\nreturn msg;  ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 660,
+        "wires": [
+            [
+                "ea126fd1cbd08658"
+            ]
+        ]
+    },
+    {
+        "id": "ea126fd1cbd08658",
+        "type": "ui_chart",
+        "z": "43a804a2e46e228e",
+        "name": "",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 6,
+        "width": 12,
+        "height": 7,
+        "label": "Histórico Altitud",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 880,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed336dab44c9a25e",
+        "type": "ui_template",
+        "z": "43a804a2e46e228e",
+        "group": "5f1fd5b0df2ccd6b",
+        "name": "Detecciones sensor ultrasonido",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "format": "<div>\n    <h2>Detección de Movimiento</h2> <!-- Título -->\n    <ul>\n        <li ng-repeat=\"item in msg.payload\">\n            Movimiento: {{ item.tiempo }}\n        </li>\n    </ul>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 730,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ec847c943b01447",
+        "type": "ui_template",
+        "z": "43a804a2e46e228e",
+        "group": "5f1fd5b0df2ccd6b",
+        "name": "Detecciones sensor mq5",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "format": "<div>\n        <h2>Detección posible fuga MQ5</h2> <!-- Título -->\n    <ul>\n        <li ng-repeat=\"item in msg.payload\">\n            Advertencia: {{ item.tiempo }}\n        </li>\n    </ul>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 710,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5aa70941bb3b4d09",
+        "type": "ui_template",
+        "z": "43a804a2e46e228e",
+        "group": "5f1fd5b0df2ccd6b",
+        "name": "Detecciones sensor mq135",
+        "order": 3,
+        "width": 6,
+        "height": 3,
+        "format": "<div>\n            <h2>Detección posible fuga MQ135</h2> <!-- Título -->\n    <ul>\n        <li ng-repeat=\"item in msg.payload\">\n            Advertencia: {{ item.tiempo }}\n        </li>\n    </ul>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "efa89f2bdbf0a549",
+        "type": "ui_template",
+        "z": "43a804a2e46e228e",
+        "group": "5f1fd5b0df2ccd6b",
+        "name": "Detecciones sensor ldr",
+        "order": 4,
+        "width": 6,
+        "height": 3,
+        "format": "<div>\n            <h2>Detección de luz</h2> <!-- Título -->\n    <ul>\n        <li ng-repeat=\"item in msg.payload\">\n            Luz detectada: {{ item.tiempo }}\n        </li>\n    </ul>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 700,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97a1db64a237b1db",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Histórico",
+        "func": "var arraytemperatura = [];\n\n// los arrays usados en la represenstación gráfica deben contener objetos JSON con dos campos: {x , y}\n// en x debemos poner la hora en formato \"timestamp\". Si tenemos un objeto fecha se puede convertir usando el metodo getTime()\n// en y debemos poner el valor de la variable\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        var timeString = msg.payload[i].tiempo;\n        var dateTimeParts = timeString.split(\" \"); // Separar fecha y hora\n        var dateParts = dateTimeParts[0].split(\"-\").map(Number);\n        var timeParts = dateTimeParts[1].split(\":\").map(Number);\n\n        var timestamp = new Date(\n            dateParts[0], // Año\n            dateParts[1] - 1, // Mes (se resta 1 ya que en JavaScript los meses van de 0 a 11)\n            dateParts[2], // Día\n            timeParts[0], // Horas\n            timeParts[1], // Minutos\n            timeParts[2] // Segundos\n        ).getTime();\n\n        arraytemperatura.push({\n            x: timestamp,\n            y: msg.payload[i].temperatura\n        });\n    }\n}\n\n\nmsg.payload = [{\n    \"series\": [\"temperatura\"],\n    \"data\": [arraytemperatura],\n    \"labels\": [\"\"]\n}];\n\n\nreturn msg;  \n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 480,
+        "wires": [
+            [
+                "3a7a8a33e3dff3e8"
+            ]
+        ]
+    },
+    {
+        "id": "f60f993ba308ce91",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Consulta Placa 3",
+        "func": "msg.payload = { \"idPlaca\": \"Placa3\" };\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "0e474a1d755dc04a"
+            ]
+        ]
+    },
+    {
+        "id": "8ba99da2912534ed",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Consulta Placa 4",
+        "func": "msg.payload = { \"idPlaca\": \"Placa4\" };\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "07eae3d5434a1092"
+            ]
+        ]
+    },
+    {
+        "id": "07eae3d5434a1092",
+        "type": "mongodb in",
+        "z": "43a804a2e46e228e",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Find dht11",
+        "collection": "dht11",
+        "operation": "find",
+        "x": 670,
+        "y": 480,
+        "wires": [
+            [
+                "97a1db64a237b1db",
+                "2913226673db378a"
+            ]
+        ]
+    },
+    {
+        "id": "3a7a8a33e3dff3e8",
+        "type": "ui_chart",
+        "z": "43a804a2e46e228e",
+        "name": "",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 10,
+        "width": 12,
+        "height": 6,
+        "label": "Histórico Temperatura Placa4",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1080,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2913226673db378a",
+        "type": "function",
+        "z": "43a804a2e46e228e",
+        "name": "Histórico",
+        "func": "var arrayhumedad = [];\n\n// los arrays usados en la represenstación gráfica deben contener objetos JSON con dos campos: {x , y}\n// en x debemos poner la hora en formato \"timestamp\". Si tenemos un objeto fecha se puede convertir usando el metodo getTime()\n// en y debemos poner el valor de la variable\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        var timeString = msg.payload[i].tiempo;\n        var dateTimeParts = timeString.split(\" \"); // Separar fecha y hora\n        var dateParts = dateTimeParts[0].split(\"-\").map(Number);\n        var timeParts = dateTimeParts[1].split(\":\").map(Number);\n\n        var timestamp = new Date(\n            dateParts[0], // Año\n            dateParts[1] - 1, // Mes (se resta 1 ya que en JavaScript los meses van de 0 a 11)\n            dateParts[2], // Día\n            timeParts[0], // Horas\n            timeParts[1], // Minutos\n            timeParts[2] // Segundos\n        ).getTime();\n\n        arrayhumedad.push({\n            x: timestamp,\n            y: msg.payload[i].humedad\n        });\n    }\n}\n\n\nmsg.payload = [{\n    \"series\": [\"humedad\"],\n    \"data\": [arrayhumedad],\n    \"labels\": [\"\"]\n}];\n\n\nreturn msg;  ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 540,
+        "wires": [
+            [
+                "0b1445767494e0bf"
+            ]
+        ]
+    },
+    {
+        "id": "0b1445767494e0bf",
+        "type": "ui_chart",
+        "z": "43a804a2e46e228e",
+        "name": "",
+        "group": "5f1fd5b0df2ccd6b",
+        "order": 12,
+        "width": 12,
+        "height": 6,
+        "label": "Histórico Humedad Placa4",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1080,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1333306d2108d13",
+        "type": "mqtt in",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "topic": "datos/mq5",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d24050bcd1018b66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 380,
+        "wires": [
+            [
+                "0b9469b1e08414b7"
+            ]
+        ]
+    },
+    {
+        "id": "d9a3ddd3870e90ff",
+        "type": "mqtt in",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "topic": "datos/mq135",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d24050bcd1018b66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 700,
+        "wires": [
+            [
+                "b9d3fd752ad9f2ac"
+            ]
+        ]
+    },
+    {
+        "id": "5c36d8d078c24c9d",
+        "type": "mqtt in",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "topic": "datos/dht11",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d24050bcd1018b66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 1340,
+        "wires": [
+            [
+                "f646b6173ea0de1c",
+                "e12062683afafc6e",
+                "501f530f7b08d181",
+                "05bb21864a04c484"
+            ]
+        ]
+    },
+    {
+        "id": "f646b6173ea0de1c",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "temperatura",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temperatura",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1340,
+        "wires": [
+            [
+                "950a3705c5a686d9",
+                "488b9480e1d9b23d"
+            ]
+        ]
+    },
+    {
+        "id": "e12062683afafc6e",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "humedad",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humedad",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1400,
+        "wires": [
+            [
+                "8137f4ec89cb4107",
+                "9241cf2e5c1d4cfd"
+            ]
+        ]
+    },
+    {
+        "id": "501f530f7b08d181",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "tiempo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tiempo",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1255ffc38702e36",
+        "type": "mqtt in",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "topic": "datos/bmp280",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d24050bcd1018b66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 1720,
+        "wires": [
+            [
+                "7bce88e91b7366a0",
+                "1ac8a8c6e66dcbb8",
+                "e2244fa753877998",
+                "0fbc31a80fc23099"
+            ]
+        ]
+    },
+    {
+        "id": "7bce88e91b7366a0",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "presion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.presion",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1720,
+        "wires": [
+            [
+                "db07499ad6eb2b41"
+            ]
+        ]
+    },
+    {
+        "id": "1ac8a8c6e66dcbb8",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "altitud",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.altitud",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 1780,
+        "wires": [
+            [
+                "c49371d4f0849ffc"
+            ]
+        ]
+    },
+    {
+        "id": "e2244fa753877998",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "tiempo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tiempo",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3646e57158aff5bf",
+        "type": "mqtt in",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "topic": "datos/ultrasonido",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d24050bcd1018b66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 100,
+        "wires": [
+            [
+                "480c5d913c5d701f",
+                "f0f0bb2061bc30e6"
+            ]
+        ]
+    },
+    {
+        "id": "480c5d913c5d701f",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "deteccion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 100,
+        "wires": [
+            [
+                "c3b9095fb2adb5a2"
+            ]
+        ]
+    },
+    {
+        "id": "8137f4ec89cb4107",
+        "type": "ui_gauge",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "group": "ec9c6273a387b6a0",
+        "order": 6,
+        "width": 10,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Humedad",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "950a3705c5a686d9",
+        "type": "ui_text",
+        "z": "49fb91836e36b687",
+        "group": "e83bc6cffc48845b",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload}} ºC",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 910,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "db07499ad6eb2b41",
+        "type": "ui_gauge",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "group": "3676f7f9d6e9f47f",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Presión",
+        "label": "hPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 880,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "c49371d4f0849ffc",
+        "type": "ui_text",
+        "z": "49fb91836e36b687",
+        "group": "3676f7f9d6e9f47f",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "name": "",
+        "label": "Altitud",
+        "format": "{{msg.payload}} m",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 870,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "f0f0bb2061bc30e6",
+        "type": "mongodb out",
+        "z": "49fb91836e36b687",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Save ultrasonido",
+        "collection": "ultrasonido",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 630,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "abfb3fc1e4d08370",
+        "type": "mongodb out",
+        "z": "49fb91836e36b687",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Save mq5",
+        "collection": "mq5",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 600,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ec42ccc85bb3acc5",
+        "type": "mongodb out",
+        "z": "49fb91836e36b687",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Save mq135",
+        "collection": "mq135",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 610,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f8a8d961947e9766",
+        "type": "mongodb out",
+        "z": "49fb91836e36b687",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Save ldr",
+        "collection": "ldr",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 600,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "7f52ad592b9544e9",
+        "type": "mongodb out",
+        "z": "49fb91836e36b687",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Save dht11",
+        "collection": "dht11",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 650,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "551b82c6017267ca",
+        "type": "mongodb out",
+        "z": "49fb91836e36b687",
+        "mongodb": "62042f3b77c3e057",
+        "name": "Save bmp280",
+        "collection": "bmp280",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 660,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "05bb21864a04c484",
+        "type": "delay",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 470,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0fbc31a80fc23099",
+        "type": "delay",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 470,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6b42511ca84b38e7",
+        "type": "mqtt in",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "topic": "datos/ldr",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d24050bcd1018b66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 1000,
+        "wires": [
+            [
+                "1e5ad9c0b29aa976"
+            ]
+        ]
+    },
+    {
+        "id": "102bc75c571f1bce",
+        "type": "ui_led",
+        "z": "49fb91836e36b687",
+        "order": 2,
+        "group": "f5b342f16008e0eb",
+        "width": "6",
+        "height": "2",
+        "label": "Encendido",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "cb0b08dae13e2083",
+        "type": "inject",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "c3b9095fb2adb5a2",
+                "53f0e588d36a6c84",
+                "da7b563a0c3f87e5",
+                "102bc75c571f1bce"
+            ]
+        ]
+    },
+    {
+        "id": "da7b563a0c3f87e5",
+        "type": "ui_led",
+        "z": "49fb91836e36b687",
+        "order": 2,
+        "group": "99c68e539f5db116",
+        "width": "6",
+        "height": "2",
+        "label": "Detección",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "53f0e588d36a6c84",
+        "type": "ui_led",
+        "z": "49fb91836e36b687",
+        "order": 2,
+        "group": "9341b886b543759b",
+        "width": "6",
+        "height": "2",
+        "label": "Detección",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "c3b9095fb2adb5a2",
+        "type": "ui_led",
+        "z": "49fb91836e36b687",
+        "order": 2,
+        "group": "feeb7169f697d404",
+        "width": "6",
+        "height": "2",
+        "label": "Detección",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0b9469b1e08414b7",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "deteccion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 380,
+        "wires": [
+            [
+                "53f0e588d36a6c84"
+            ]
+        ]
+    },
+    {
+        "id": "b9d3fd752ad9f2ac",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "deteccion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 700,
+        "wires": [
+            [
+                "da7b563a0c3f87e5"
+            ]
+        ]
+    },
+    {
+        "id": "1e5ad9c0b29aa976",
+        "type": "change",
+        "z": "49fb91836e36b687",
+        "name": "encendido",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 1000,
+        "wires": [
+            [
+                "102bc75c571f1bce"
+            ]
+        ]
+    },
+    {
+        "id": "488b9480e1d9b23d",
+        "type": "ui_text",
+        "z": "49fb91836e36b687",
+        "group": "ec9c6273a387b6a0",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload}} ºC",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 910,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "9241cf2e5c1d4cfd",
+        "type": "ui_gauge",
+        "z": "49fb91836e36b687",
+        "name": "",
+        "group": "e83bc6cffc48845b",
+        "order": 2,
+        "width": "10",
+        "height": "6",
+        "gtype": "wave",
+        "title": "Humedad",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "e10a35be7d80ce12",
+        "type": "mongodb in",
+        "z": "27435e1b1b19d883",
+        "mongodb": "62042f3b77c3e057",
+        "name": "dht11",
+        "collection": "dht11",
+        "operation": "find",
+        "x": 830,
+        "y": 300,
+        "wires": [
+            [
+                "55fe283907d61e81"
+            ]
+        ]
+    },
+    {
+        "id": "55fe283907d61e81",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "mensaje respuesta",
+        "func": "var temp = msg.payload[0].temperatura;\nvar hum = msg.payload[0].humedad;\nvar date = msg.payload[0].tiempo;\nvar idPlaca = msg.payload[0].idPlaca;\n\nmsg.mensaje.content =\n    \"📊 Datos de la \" + idPlaca + \":\\n\" +\n    \"   🌡️ Temperatura: \" + temp + \" ºC\\n\" +\n    \"   💧 Humedad: \" + hum + \" %\\n\" +\n    \"   ⏰ Fecha última actualización: \" + date + \"\\n\";\n\nmsg.payload = msg.mensaje;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 300,
+        "wires": [
+            [
+                "9db3f7853d318e57"
+            ]
+        ]
+    },
+    {
+        "id": "9db3f7853d318e57",
+        "type": "telegram sender",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "bot": "3ecb1f7c6357765f",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bad26b3908b5e93f",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/dht11_Placa3",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 300,
+        "wires": [
+            [
+                "2f0613e8219ec109"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ab5d0885546d4113",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/dht11_Placa4",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 380,
+        "wires": [
+            [
+                "31fa1014f5b308d8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "472a88e908599ed8",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = {\"idPlaca\":\"Placa3\"};\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 300,
+        "wires": [
+            [
+                "e10a35be7d80ce12"
+            ]
+        ]
+    },
+    {
+        "id": "0f010d85bd6e3bc8",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = {\"idPlaca\":\"Placa4\"};\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 380,
+        "wires": [
+            [
+                "e10a35be7d80ce12"
+            ]
+        ]
+    },
+    {
+        "id": "288e95743a331cda",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/bmp280_Placa3",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 480,
+        "wires": [
+            [
+                "1e9d8a930b8a71dc"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "94e8574938fd1d2b",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = {\"idPlaca\":\"Placa3\"};\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 480,
+        "wires": [
+            [
+                "cbce86b6ee3b0bd2"
+            ]
+        ]
+    },
+    {
+        "id": "cbce86b6ee3b0bd2",
+        "type": "mongodb in",
+        "z": "27435e1b1b19d883",
+        "mongodb": "62042f3b77c3e057",
+        "name": "bmp280",
+        "collection": "bmp280",
+        "operation": "find",
+        "x": 840,
+        "y": 480,
+        "wires": [
+            [
+                "c83b4b7172b1d1fe"
+            ]
+        ]
+    },
+    {
+        "id": "c83b4b7172b1d1fe",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "mensaje respuesta",
+        "func": "var pres = msg.payload[0].presion;\nvar alt = msg.payload[0].altitud;\nvar date = msg.payload[0].tiempo;\n\nmsg.mensaje.content =\n    \"📊 Datos de la Placa3:\\n\" +\n    \"   🪶 Presión: \" + pres + \" hPa\\n\" +\n    \"   🏔️ Altitud: \" + alt + \" m\\n\" +\n    \"   ⏰ Fecha última actualización: \" + date + \"\\n\";\n\nmsg.payload = msg.mensaje;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 480,
+        "wires": [
+            [
+                "9db3f7853d318e57"
+            ]
+        ]
+    },
+    {
+        "id": "1e9d8a930b8a71dc",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 480,
+        "wires": [
+            [
+                "94e8574938fd1d2b"
+            ]
+        ]
+    },
+    {
+        "id": "2f0613e8219ec109",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 300,
+        "wires": [
+            [
+                "472a88e908599ed8"
+            ]
+        ]
+    },
+    {
+        "id": "31fa1014f5b308d8",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "0f010d85bd6e3bc8"
+            ]
+        ]
+    },
+    {
+        "id": "8dbef79b016dd62e",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/ldr_Placa3",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 160,
+        "y": 580,
+        "wires": [
+            [
+                "8adce3057552d8ef"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4d147633d4f25994",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = { \"idPlaca\": \"Placa3\", \"encendido\": 1 } ;\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 580,
+        "wires": [
+            [
+                "d366c90d110a59d3"
+            ]
+        ]
+    },
+    {
+        "id": "d366c90d110a59d3",
+        "type": "mongodb in",
+        "z": "27435e1b1b19d883",
+        "mongodb": "62042f3b77c3e057",
+        "name": "ldr",
+        "collection": "ldr",
+        "operation": "find",
+        "x": 830,
+        "y": 580,
+        "wires": [
+            [
+                "3f49de865333753f"
+            ]
+        ]
+    },
+    {
+        "id": "3f49de865333753f",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "mensaje respuesta",
+        "func": "var date = msg.payload[0].tiempo;\n\nmsg.mensaje.content =\n    \"📅 Fecha último encendido:\\n\" + date + \"\\n\";\n\nmsg.payload = msg.mensaje;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 580,
+        "wires": [
+            [
+                "9db3f7853d318e57"
+            ]
+        ]
+    },
+    {
+        "id": "8adce3057552d8ef",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 580,
+        "wires": [
+            [
+                "4d147633d4f25994"
+            ]
+        ]
+    },
+    {
+        "id": "9df84de9332a69bc",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/ultrasonido_Placa2",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 680,
+        "wires": [
+            [
+                "95556916755ad884"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "46e4bf091f123b5a",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = { \"idPlaca\": \"Placa2\", \"deteccion\": 1 };\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 680,
+        "wires": [
+            [
+                "1f391d7f2a78152a"
+            ]
+        ]
+    },
+    {
+        "id": "1f391d7f2a78152a",
+        "type": "mongodb in",
+        "z": "27435e1b1b19d883",
+        "mongodb": "62042f3b77c3e057",
+        "name": "ultrasonido",
+        "collection": "ultrasonido",
+        "operation": "find",
+        "x": 850,
+        "y": 680,
+        "wires": [
+            [
+                "48597b86dec32d4c"
+            ]
+        ]
+    },
+    {
+        "id": "48597b86dec32d4c",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "mensaje respuesta",
+        "func": "var date = msg.payload[0].tiempo;\n\nmsg.mensaje.content =\n    \"⏱️ Fecha última detección:\\n\" + date + \"\\n\";\n\nmsg.payload = msg.mensaje;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 680,
+        "wires": [
+            [
+                "9db3f7853d318e57"
+            ]
+        ]
+    },
+    {
+        "id": "95556916755ad884",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "46e4bf091f123b5a"
+            ]
+        ]
+    },
+    {
+        "id": "02d79d57986c8eb4",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/mq5_Placa5",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 760,
+        "wires": [
+            [
+                "dbb20e257d6c4090"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "27f559665c0b474b",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = { \"idPlaca\": \"Placa5\", \"deteccion\": 1 };\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 760,
+        "wires": [
+            [
+                "2eb6b07d10f73dfd"
+            ]
+        ]
+    },
+    {
+        "id": "2eb6b07d10f73dfd",
+        "type": "mongodb in",
+        "z": "27435e1b1b19d883",
+        "mongodb": "62042f3b77c3e057",
+        "name": "mq5",
+        "collection": "mq5",
+        "operation": "find",
+        "x": 830,
+        "y": 760,
+        "wires": [
+            [
+                "eaf0cb717ea58f48"
+            ]
+        ]
+    },
+    {
+        "id": "eaf0cb717ea58f48",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "mensaje respuesta",
+        "func": "var date = msg.payload[0].tiempo;\n\nmsg.mensaje.content =\n    \"⏱️ Fecha última detección:\\n\" + date + \"\\n\";\n\nmsg.payload = msg.mensaje;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 760,
+        "wires": [
+            [
+                "9db3f7853d318e57"
+            ]
+        ]
+    },
+    {
+        "id": "dbb20e257d6c4090",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 760,
+        "wires": [
+            [
+                "27f559665c0b474b"
+            ]
+        ]
+    },
+    {
+        "id": "61a5ae1a21a7eb2b",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/mq135_Placa4",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 840,
+        "wires": [
+            [
+                "c20521a08b813180"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "699c2b95b03f8db9",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "CONSULTA",
+        "func": "msg.payload = { \"idPlaca\": \"Placa4\", \"deteccion\": 1 };\nmsg.limit = 1;  //Limitamos una sola consulta\nmsg.sort = {\"tiempo\": -1}; //Más reciente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 840,
+        "wires": [
+            [
+                "0d6688ef516b52a1"
+            ]
+        ]
+    },
+    {
+        "id": "0d6688ef516b52a1",
+        "type": "mongodb in",
+        "z": "27435e1b1b19d883",
+        "mongodb": "62042f3b77c3e057",
+        "name": "mq135",
+        "collection": "mq135",
+        "operation": "find",
+        "x": 830,
+        "y": 840,
+        "wires": [
+            [
+                "c7411bcd4e5e1c2c"
+            ]
+        ]
+    },
+    {
+        "id": "c7411bcd4e5e1c2c",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "mensaje respuesta",
+        "func": "var date = msg.payload[0].tiempo;\n\nmsg.mensaje.content =\n    \"⏱️ Fecha última detección:\\n\" + date + \"\\n\";\n\nmsg.payload = msg.mensaje;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 840,
+        "wires": [
+            [
+                "9db3f7853d318e57"
+            ]
+        ]
+    },
+    {
+        "id": "c20521a08b813180",
+        "type": "change",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mensaje",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 840,
+        "wires": [
+            [
+                "699c2b95b03f8db9"
+            ]
+        ]
+    },
+    {
+        "id": "767fcefb9aea6959",
+        "type": "telegram sender",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "bot": "3ecb1f7c6357765f",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dad8ac82de062cdd",
+        "type": "telegram command",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "command": "/help",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "169fc9faceee4e27"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "80c1c1eff908a2da",
+        "type": "telegram receiver",
+        "z": "27435e1b1b19d883",
+        "name": "",
+        "bot": "3ecb1f7c6357765f",
+        "saveDataDir": "",
+        "filterCommands": true,
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "169fc9faceee4e27"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "169fc9faceee4e27",
+        "type": "function",
+        "z": "27435e1b1b19d883",
+        "name": "Mensaje bienvenida",
+        "func": "msg.payload.content = `\n¡Hola! 👋 Soy tu asistente virtual y estoy aquí para ayudarte con diferentes comandos. Aquí tienes una lista de lo que puedo hacer:\n\n1. 🌡️ /dht11_Placa3: Obtiene los datos de temperatura y humedad de la Placa3.\n2. 🌡️ /dht11_Placa4: Muestra los datos de temperatura y humedad de la Placa4.\n3. 🏔️ /bmp280_Placa3: Proporciona la información de presión y altitud de la Placa3.\n4. ☀️ /ldr_Placa3: Te muestra los datos del sensor de luz en la Placa3.\n5. 🔈 /ultrasonido_Placa2: Ofrece datos de distancia del sensor ultrasónico en la Placa2.\n6. 🔥 /mq5_Placa5: Consulta información del sensor MQ5 en la Placa5.\n7. 🌫️ /mq135_Placa4: Muestra datos del sensor MQ135 en la Placa4.\n8. 🔌 /enciende1: Enciende el enchufe 1 de la regleta inteligente.\n9. 🔌 /apaga1: Apagar el enchufe 1 de la regleta inteligente.\n10.🔌 /enciende2: Enciende el enchufe 2 de la regleta inteligente.\n11.🔌 /apaga2: Apagar el enchufe 2 de la regleta inteligente.\n12.🔌 /enciende3: Enciende el enchufe 3 de la regleta inteligente.\n13.🔌 /apaga3: Apagar el enchufe 3 de la regleta inteligente.\n14.🔌 /enciende4: Enciende el enchufe 4 de la regleta inteligente.\n15.🔌 /apaga4: Apagar el enchufe 4 de la regleta inteligente.\n\n\nCada comando te proporcionará información específica sobre los sensores y dispositivos que tenemos. Escribe /help si quieres volver a ver este mensaje 🤖💬\n`;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "767fcefb9aea6959"
+            ]
+        ]
+    },
+    {
+        "id": "916eaaa4c87c1ece",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/enciende1",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "056427b0dac06bb9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "056427b0dac06bb9",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "on",
+        "func": "msg.payload = true\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "43f59860489fe6e9"
+            ]
+        ]
+    },
+    {
+        "id": "781bd04e3fd04c54",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "off",
+        "func": "msg.payload = false\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "43f59860489fe6e9"
+            ]
+        ]
+    },
+    {
+        "id": "d5ab52534fa2deb6",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/apaga1",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "781bd04e3fd04c54"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5c9ffa704ca16697",
+        "type": "ui_led",
+        "z": "9fd0372697c7261d",
+        "order": 9,
+        "group": "8a4bf2b33d23b0b7",
+        "width": 6,
+        "height": 2,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Enchufe 1",
+        "x": 780,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "43f59860489fe6e9",
+        "type": "ui_switch",
+        "z": "9fd0372697c7261d",
+        "name": "Switch enchufe 1",
+        "label": "",
+        "tooltip": "",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "5c9ffa704ca16697",
+                "6bcca3f17cb78b45"
+            ]
+        ]
+    },
+    {
+        "id": "dc021012816a0f87",
+        "type": "ui_text",
+        "z": "9fd0372697c7261d",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "name": "Enchufe 1",
+        "label": "",
+        "format": "Enchufe 1",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6bcca3f17cb78b45",
+        "type": "mqtt out",
+        "z": "9fd0372697c7261d",
+        "name": "Enchufe1",
+        "topic": "enchufe1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d24050bcd1018b66",
+        "x": 780,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c91c2158cb63a8aa",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/enciende2",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "8eeba6fe721680de"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e31d8c88f0d855e0",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/apaga2",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "0392da1db66b8738"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "672b13a6d166841f",
+        "type": "ui_led",
+        "z": "9fd0372697c7261d",
+        "order": 11,
+        "group": "8a4bf2b33d23b0b7",
+        "width": 6,
+        "height": 2,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Enchufe 2",
+        "x": 780,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "265a6254c1a29159",
+        "type": "ui_switch",
+        "z": "9fd0372697c7261d",
+        "name": "Switch enchufe 2",
+        "label": "",
+        "tooltip": "",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 550,
+        "y": 360,
+        "wires": [
+            [
+                "672b13a6d166841f",
+                "9fe0fd968427ca03"
+            ]
+        ]
+    },
+    {
+        "id": "4ab786de9e828266",
+        "type": "ui_text",
+        "z": "9fd0372697c7261d",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "Enchufe 2",
+        "label": "",
+        "format": "Enchufe 2",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9fe0fd968427ca03",
+        "type": "mqtt out",
+        "z": "9fd0372697c7261d",
+        "name": "Enchufe2",
+        "topic": "enchufe2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d24050bcd1018b66",
+        "x": 780,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5d7e44dc405fae7e",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/enciende3",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 560,
+        "wires": [
+            [
+                "81ae4075e93ae833"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cffea8044c2908ff",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/apaga3",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "9bfacaf86106d5f5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2da659d6d3feec7c",
+        "type": "ui_led",
+        "z": "9fd0372697c7261d",
+        "order": 26,
+        "group": "8a4bf2b33d23b0b7",
+        "width": 6,
+        "height": 2,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Enchufe 3",
+        "x": 780,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "96f8f16b57e1b086",
+        "type": "ui_switch",
+        "z": "9fd0372697c7261d",
+        "name": "Switch enchufe 3",
+        "label": "",
+        "tooltip": "",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 20,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "2da659d6d3feec7c",
+                "0e185bec3b39189e"
+            ]
+        ]
+    },
+    {
+        "id": "d38a0fd340f2993f",
+        "type": "ui_text",
+        "z": "9fd0372697c7261d",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 19,
+        "width": 4,
+        "height": 1,
+        "name": "Enchufe 3",
+        "label": "",
+        "format": "Enchufe 3",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "0e185bec3b39189e",
+        "type": "mqtt out",
+        "z": "9fd0372697c7261d",
+        "name": "Enchufe3",
+        "topic": "enchufe3",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d24050bcd1018b66",
+        "x": 780,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "2087f5f453422865",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/enciende4",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 780,
+        "wires": [
+            [
+                "16bea3e296cddeca"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "68d4ed441c1c80c5",
+        "type": "telegram command",
+        "z": "9fd0372697c7261d",
+        "name": "",
+        "command": "/apaga4",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3ecb1f7c6357765f",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 840,
+        "wires": [
+            [
+                "993a8911c935ecca"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a19002f0f65526a3",
+        "type": "ui_led",
+        "z": "9fd0372697c7261d",
+        "order": 28,
+        "group": "8a4bf2b33d23b0b7",
+        "width": 6,
+        "height": 2,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Enchufe 4",
+        "x": 780,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "164b3e6024bebeab",
+        "type": "ui_switch",
+        "z": "9fd0372697c7261d",
+        "name": "Switch enchufe 4",
+        "label": "",
+        "tooltip": "",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 23,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 550,
+        "y": 800,
+        "wires": [
+            [
+                "a19002f0f65526a3",
+                "493cba3db48b2b01"
+            ]
+        ]
+    },
+    {
+        "id": "b0df720c8af603fa",
+        "type": "ui_text",
+        "z": "9fd0372697c7261d",
+        "group": "8a4bf2b33d23b0b7",
+        "order": 22,
+        "width": 4,
+        "height": 1,
+        "name": "Enchufe 4",
+        "label": "",
+        "format": "Enchufe 4",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "493cba3db48b2b01",
+        "type": "mqtt out",
+        "z": "9fd0372697c7261d",
+        "name": "Enchufe4",
+        "topic": "enchufe4",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d24050bcd1018b66",
+        "x": 780,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "8eeba6fe721680de",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "on",
+        "func": "msg.payload = true\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 340,
+        "wires": [
+            [
+                "265a6254c1a29159"
+            ]
+        ]
+    },
+    {
+        "id": "0392da1db66b8738",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "off",
+        "func": "msg.payload = false\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 400,
+        "wires": [
+            [
+                "265a6254c1a29159"
+            ]
+        ]
+    },
+    {
+        "id": "81ae4075e93ae833",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "on",
+        "func": "msg.payload = true\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 560,
+        "wires": [
+            [
+                "96f8f16b57e1b086"
+            ]
+        ]
+    },
+    {
+        "id": "9bfacaf86106d5f5",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "off",
+        "func": "msg.payload = false\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 620,
+        "wires": [
+            [
+                "96f8f16b57e1b086"
+            ]
+        ]
+    },
+    {
+        "id": "16bea3e296cddeca",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "on",
+        "func": "msg.payload = true\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 780,
+        "wires": [
+            [
+                "164b3e6024bebeab"
+            ]
+        ]
+    },
+    {
+        "id": "993a8911c935ecca",
+        "type": "function",
+        "z": "9fd0372697c7261d",
+        "name": "off",
+        "func": "msg.payload = false\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 840,
+        "wires": [
+            [
+                "164b3e6024bebeab"
+            ]
+        ]
+    }
+]
